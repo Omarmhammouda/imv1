@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Arvo", serif;
+  --font-sans: "Raleway", sans-serif;
+  
+  --color-ink: #252C3E;
+  --color-midnight: #214D72;
+  --color-twilight: #9675BC;
+  --color-rose: #F1B3BE;
+  --color-porcelain: #FFE0DB;
+}
+
+/* Custom scrollbar to keep layout sleek */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #252C3E;
+}
+::-webkit-scrollbar-thumb {
+  background: #214D72;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9675BC;
+}
+
